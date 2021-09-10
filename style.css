@@ -8,6 +8,8 @@
 
 body
 {
+      background-image:linear-gradient(rgba(228, 180, 90, 0.774), rgba(238, 237, 199, 0.596)),
+      url(https://www.elmueble.com/medio/2021/03/15/00531224_49198044_1500x2000.jpg);
       background-color: cornsilk;
       background-attachment: fixed;
       background-position: 50% 50%;
@@ -25,13 +27,14 @@ body
       color: #D35400;
       text-decoration: underline;
       text-align: left;
-      font-size: x-large;
+      font-size: xx-large;
 }
 
 .texto1 
 {
       color: black;
-      font-size: medium;
+      font-size: large;
+      font-style: italic;
 }
 
 .textoPie
@@ -39,3 +42,4 @@ body
       text-align: center;
       font-size: x-large;
 }
+
