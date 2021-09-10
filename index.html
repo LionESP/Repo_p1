@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Receta: Tortilla de papas Española</title>
+    <link rel="stylesheet"  href="style.css">
   </head>
-  <body style="background-color:#E9F7EF;">
-      <h1 style="background-color:#FAD7A0; text-align:center"> Receta: Tortilla de papas Española</h1><!--titulo-->
+  <body>
+    
+    <header>
+      <h1 id="titulo"> Receta: Tortilla de papas Española</h1><!--titulo-->
+    </header>
 
-      <h2> Ingredientes </h2>
 
-      <ul>
+    <nav>
+      <h2 class="subTitulos"> Ingredientes </h2>
+      <ul class="texto1">
         <li>4 huevos</li>
         <li>3 papas medianas</li>
         <li>1/2 cebolla</li>
         <li>Sal</li>
         <li>Aceite</li>
-
       </ul>
-
       <audio controls autoplay>
         <source src=" audio/quizas_quizas.mp3" type="audio/mp3">
           tu navegador no es compatible con el audio
       </audio>
+    </nav>
 
-      <h3> Preparación </h3>
-      <ol>
+    <section>
+      <h3 class="subTitulos"> Preparación </h3>
+      <ol class="texto1">
         <li>Cortar las papas en rodajas finas, estilo papas españolas. Deben ser de tamaño mediano, ya que queremos que queden bien unidas con el huevo. Les recomiendo que vean cómo corto las papas en el video para que se den cuenta aproximadamente del tamaño que deben tener.</li>
         <li>Colocar abundante aceite en una sartén. Es importante saber que las papas -en la receta tradicional y auténtica de la tortilla española- no deben freírse sino que deben pocharse. Lo que vamos a hacer es poner la sartén a fuego fuerte, y en cuanto esté tibio el aceite vamos a agregar todas las papas. Si, ese es el primer truco: agregamos las papas antes de que el aceite esté hirviendo. Las dejamos cocinar durante 5 minutos.</li>
         <li>Mientras tanto vamos a cortar la cebolla en julianas. Una vez pasados los 5 minutos agregamos las cebollas a la sartén con las papas, revolviendo suavemente.</li>
@@ -38,27 +43,52 @@
         <li>Luego vamos a darla vuelta. Para ésto vamos a colocar un plato encima de la sarten y la damos vuelta sin miedo. Pueden ver cómo lo hago en el video, es muy fácil! Una vez que la damos vuelta vamos a emprolijar los bordes nuevamente con la espátula y dejamos cocer unos 3-4 minutos más.</li>
         <li>Para sacarla vamos a volver a darla vuelta. Es decir, colocamos nuevamente el plato encima de la sartén como hicimos en el punto anterior y lo damos vuelta con cuidado. Buen provecho!</li>
       </ol>
+    
       <br>
-      <img src=" imagenes/receta-tortilla-patatas-facil.jpg" alt="tortilla de papa not found :D">
-
-      <br>
-      <h4>Video receta:</h4>
-
+      <img src=" imagenes/receta-tortilla-patatas-facil.jpg" alt="tortilla de papa"; class="multimedia"; id="imgTortilla">
+      
+      
       <iframe width="560" height="315" src="https://www.youtube.com/embed/zfdzfDGc-1k"
-      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+       picture-in-picture" allowfullscreen class="multimedia"></iframe>
+    
+    </section>
 
-      <h4> Origen receta </h4>
-      <p>La tortilla de patatas se inventó en Extremadura en 1798. Hasta ahora la leyenda del invento (o más bien receta)
+
+
+    
+      
+    
+
+    <aside>
+      <h4 class="subTitulos"> Origen receta </h4>
+      <p class="texto1">La tortilla de patatas se inventó en Extremadura en 1798. Hasta ahora la leyenda del invento (o más bien receta)
          estaba en Navarra en el año 1835 cuando el general Tomás de Zumalacárregui durante el sitio de Bilbao en la Primera Guerra Carlista.
          Buscaba un alimento nutritivo y barato para sus tropas. Más bien, el mérito sería para la avispada campesina a la que el militar realizó el encargo.
          Así lo asegura el experto Javier López Linage en su investigación de 2008. Según las fuentes documentales que ha encontrado,
          el origen conceptual de la famosa tortilla de patatas está en Villanueva de la Serena, hacia finales del siglo XVIII. «Resulta curioso, cuando edité el libro
-         por primera vez ya había visto ese documento, pero hasta que no he revisado mis papeles no he sido capaz de comprender el alcance real de lo que allí se decía», afirma.</p>
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1254709.3028094259!2d-6.951373716690985!3d39.298052937649615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd15ca44ad812d97%3A0x10463fd8c9fc830!2sExtremadura%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1629691346737!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
+         por primera vez ya había visto ese documento,pero hasta que no he revisado mis papeles no he sido capaz de comprender el
+          alcance real de lo que allí se decía», afirma.</p>
       
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1254709.3028094259!2d-6.951373716690985!3d39.298052937649615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd15ca44ad812d97%3A0x10463fd8c9fc830!2sExtremadura%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1629691346737!5m2!1ses-419!2sar" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="multimedia"></iframe>
+      <br>
+
+    </aside>
+
+    <footer>
+      <a href="descargas/receta.txt">
+        <img src="imagenes/descargaIcon.png" alt="imagen" class="multimedia">
+      </a>
+      <br><br>
+     
+      <div class="textoPie">
+        <a href="index.html" title="Apretame"> Volver al inicio </a>
+        <br><br>
+      
+        <a href="https://www.google.com.ar/" target="_blank"> IR A GOOGLE</a>
+      </div>
+    </footer>
   </body>
 
 </html>
